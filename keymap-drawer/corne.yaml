@@ -38,8 +38,8 @@ layers:
   - .
   - /
   - $$mdi:apple-keyboard-command$$
-  - ACT
-  - ␣
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-control$$
   - {t: ␣, h: SYM}
   - ACT
   - $$mdi:apple-keyboard-option$$
@@ -81,10 +81,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   SYM:
   - ↹
