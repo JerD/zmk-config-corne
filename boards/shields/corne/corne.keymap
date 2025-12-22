@@ -49,5 +49,14 @@
                              &kp LGUI &trans   &kp SPACE   &kp RET   &trans    &kp RALT
                         >;
                 };
+
+            func_layer {
+                bindings = <
+        &trans      &trans      &trans      &trans      &trans      &trans                              &trans      &trans      &trans      &trans      &trans      &trans
+        &trans      &trans      &trans      &trans      &trans      &trans                              &trans      &trans      &trans      &trans      &trans      &trans
+        &trans      &trans      &trans      &trans      &trans      &trans                              &trans      &trans      &trans      &trans      &trans      &trans        
+                                                        &trans      &trans      &trans      &trans      &trans      &trans
+                >;
+            };
         };
 };
