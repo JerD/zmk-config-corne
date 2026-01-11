@@ -20,19 +20,19 @@
 
 / {
     behaviors {
-        td_curl: td_curly_brace {
+        td_curl: tap_dance_0 {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&kp LS(LBKT)>, <&kp LS(RBKT)>;
         };
-        td_sqbk: td_square_brace {
+        td_sqbk: tap_dance_1 {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&kp LBKT>, <&kp RBKT>;
         };
-        td_brce: td_parenthisis {
+        td_brce: tap_dance_2 {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
