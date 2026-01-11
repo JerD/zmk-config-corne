@@ -19,6 +19,27 @@
 };
 
 / {
+    behaviors {
+        td_curl: tap_dance_0 {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp LS(LBKT)>, <&kp LS(RBKT)>;
+        };
+        td_sqbk: tap_dance_0 {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp LBKT>, <&kp RBKT>;
+        };
+        td_brce: tap_dance_0 {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp LS(N9)>, <&kp LS(N0)>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -48,9 +69,9 @@
             display-name = "SYM";
             
             bindings = <
+    &trans      &trans      &trans      &trans      &trans      &trans                              &trans      &trans      &td_sqbk    &trans      &td_brce    &trans
     &trans      &trans      &trans      &trans      &trans      &trans                              &trans      &trans      &trans      &trans      &trans      &trans
-    &trans      &trans      &trans      &trans      &trans      &trans                              &trans      &trans      &trans      &trans      &trans      &trans
-    &trans      &trans      &trans      &trans      &trans      &trans                              &trans      &trans      &trans      &trans      &trans      &trans
+    &trans      &trans      &trans      &trans      &td_curl    &trans                              &trans      &trans      &trans      &trans      &trans      &trans
                                                     &trans      &trans      &trans      &trans      &trans      &trans
             >;
         };
