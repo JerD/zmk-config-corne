@@ -20,19 +20,19 @@
 
 / {
     behaviors {
-        td_curl: tap_dance_0 {
+        td_curl: td_curly_brace {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&kp LS(LBKT)>, <&kp LS(RBKT)>;
         };
-        td_sqbk: tap_dance_1 {
+        td_sqbk: td_square_brace {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&kp LBKT>, <&kp RBKT>;
         };
-        td_brce: tap_dance_2 {
+        td_brce: td_parenthisis {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
@@ -69,10 +69,10 @@
             display-name = "SYM";
             
             bindings = <
-    &trans      &trans      &trans      &trans      &trans      &trans                              &trans      &trans      &td_sqbk    &trans      &td_brce    &trans
-    &trans      &trans      &trans      &trans      &trans      &trans                              &trans      &trans      &trans      &trans      &trans      &trans
-    &trans      &trans      &trans      &trans      &td_curl    &trans                              &trans      &trans      &trans      &trans      &trans      &trans
-                                                    &trans      &trans      &trans      &trans      &trans      &trans
+    &trans      &kp LS(FSLH) &kp LS(N2)     &kp EQUAL   &kp LS(N8)  &kp LS(NUHS)                        &kp RA(N4)  &kp LS(MINUS) &td_sqbk  &kp LS(NUBS) &td_brce   &trans
+    &trans      &kp LS(N7)  &kp LS(EQUAL)   &kp LS(N4)  &kp FSLH    &kp GRAVE                           &kp NUHS    &trans      &trans      &trans      &trans      &trans
+    &trans      &kp LS(N5)  &trans          &trans      &td_curl    &kp LS(N6)                          &kp NUBS    &kp LS(N1)  &kp MINUS   &trans      &trans      &trans
+                                                        &trans      &trans      &trans      &trans      &trans      &trans
             >;
         };
 

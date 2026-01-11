@@ -88,38 +88,38 @@ layers:
   - {t: ▽, type: trans}
   SYM:
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Sft+/
+  - Sft+2
+  - '='
+  - Sft+8
+  - Sft+#
+  - AltGr+4
+  - Sft+-
   - '&td_sqbk'
-  - {t: ▽, type: trans}
+  - Sft+NUBS
   - '&td_brce'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - Sft+7
+  - Sft+=
+  - Sft+4
+  - /
+  - '`'
+  - '#'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Sft+5
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&td_curl'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Sft+6
+  - NUBS
+  - Sft+1
+  - '-'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
